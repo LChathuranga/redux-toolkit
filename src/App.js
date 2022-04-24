@@ -17,7 +17,7 @@ function App() {
   }
 
   const incrementBy = () => {
-    dispatch(incrementById())
+    dispatch(incrementById(20))
   }
 
   return (
